@@ -1,0 +1,122 @@
+body {
+    background-color: #5c5c5c;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.tank {
+    position: absolute;
+    display: flex;
+}
+
+.tank__body {
+    position: relative;
+}
+
+.tank__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.tank__tower {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.tank__hatch {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 40%;
+}
+
+.tank__muzzle {
+    position: absolute;
+    top: 40px;
+    height: 70px;
+    width: 5px;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-top: 1px solid #fff;
+} 
+
+.tank__dec_detal-right {
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+
+}
+
+
+.tank__dec-detal-left {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+
+}
+
+.tank__dec-box {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 2px;
+    height: 6px;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.tank__dec-box:nth-child(1) {
+    top: 25%;
+}
+
+.tank__dec-box:nth-child(3) {
+    top: 75%;
+}
+
+.tank__dec-thing-back {
+    position: absolute;
+    top: 4px;
+    width: 40px;
+    height: 17px;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.right {
+    transform: rotate(-90deg);
+}
+
+.down {
+    transform: rotate(0deg);
+}
+
+.left {
+    transform: rotate(90deg);
+}
+
+.up {
+    transform: rotate(180deg);
+}
